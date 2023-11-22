@@ -1,6 +1,5 @@
 # ScanfAlternatives
 
-/*============================================================================================
 
 Self-feedback in response of using scanf() in combination with while ((c = getchar()) != '\n' && c != EOF).
 Is Messy and there are better options.
@@ -48,5 +47,3 @@ SAFER/CLEANER ALTERNATIVES:
 		- endptr points to first character that could not be converted.
 		- base allows numeric base of input. ex. 2 for binary, 10 for usual numbering system.
 		- it sets errno: allows to check range of available numbers (i.e. whether numbers are too small/big for conversion).
-
-*/
